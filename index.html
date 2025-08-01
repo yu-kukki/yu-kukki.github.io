@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>yu-kukki | ポートフォリオ</title>
+  <meta name="description" content="yu-kukki のポートフォリオサイト。経歴、インターン、技術スタック、学会発表、連絡先。" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+  <a class="skip" href="#main">本文へスキップ</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">yk</div>
+        <div>
+          <h1 class="name">yu-kukki</h1>
+          <p class="role">Software / Web Developer</p>
+        </div>
+      </div>
+      <nav class="site-nav" aria-label="主要ナビゲーション">
+        <a href="#about">About</a>
+        <a href="#experience">経歴</a>
+        <a href="#internships">インターン</a>
+        <a href="#skills">技術</a>
+        <a href="#publications">発表</a>
+        <a href="#contact" class="button">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <h2>つくる・学ぶ・届ける。</h2>
+      <p class="lead">
+        学びと開発の記録をまとめています。現在は<span class="pill">Web開発</span>と<span class="pill">機械学習</span>に注力中。
+      </p>
+      <ul class="links">
+        <li><a class="link" href="https://github.com/yu-kukki" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a class="link" href="#" aria-disabled="true">LinkedIn</a></li>
+        <li><a class="link" href="mailto:you@example.com">Email</a></li>
+      </ul>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <h3 class="section-title">About</h3>
+      <div class="card">
+        <p>
+          簡単な自己紹介をここに。興味分野、得意な技術、学んでいること、価値観など。<br/>
+          例）コンポーネント指向のフロントエンド開発とデータ指向な改善が好きです。
+        </p>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <h3 class="section-title">経歴</h3>
+      <ol class="timeline" aria-label="経歴タイムライン">
+        <li class="timeline-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <strong>○○大学 ○○学部</strong>
+              <span class="when">2023年4月 – 現在</span>
+            </div>
+            <p>学習内容や研究テーマの概要。</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <strong>高専／高校など</strong>
+              <span class="when">2018年4月 – 2023年3月</span>
+            </div>
+            <p>関連する活動・コンテスト等。</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Internships -->
+    <section id="internships" class="section">
+      <h3 class="section-title">インターン</h3>
+      <div class="grid">
+        <article class="card">
+          <header class="card-header">
+            <h4>株式会社ABC（長期）</h4>
+            <span class="when">2025年2月 – 2025年7月</span>
+          </header>
+          <p>新機能のフロント実装、UX改善。React/Viteで開発、E2Eテスト整備など。</p>
+          <ul class="tags">
+            <li>React</li><li>TypeScript</li><li>Playwright</li>
+          </ul>
+        </article>
+        <article class="card">
+          <header class="card-header">
+            <h4>株式会社XYZ（短期）</h4>
+            <span class="when">2024年8月</span>
+          </header>
+          <p>データ可視化のダッシュボード試作。Python + D3.jsでPOC。</p>
+          <ul class="tags">
+            <li>Python</li><li>D3.js</li><li>Analytics</li>
+          </ul>
+        </article>
+      </div>
+      <p class="muted">※ サンプル。実績に合わせて書き換えてください。</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h3 class="section-title">技術スタック</h3>
+      <div class="card">
+        <div class="skills">
+          <div>
+            <h5>Languages</h5>
+            <ul class="chips">
+              <li>TypeScript</li><li>JavaScript</li><li>Python</li><li>HTML</li><li>CSS</li>
+            </ul>
+          </div>
+          <div>
+            <h5>Frameworks / Tools</h5>
+            <ul class="chips">
+              <li>React</li><li>Vite</li><li>Node.js</li><li>GitHub Actions</li><li>Jest</li>
+            </ul>
+          </div>
+          <div>
+            <h5>Cloud / Others</h5>
+            <ul class="chips">
+              <li>Firebase</li><li>Docker</li><li>Figma</li><li>Linux</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications / Talks -->
+    <section id="publications" class="section">
+      <h3 class="section-title">学会発表・論文</h3>
+      <div class="card">
+        <ul class="pubs">
+          <li>
+            <span class="pub-title">○○手法による△△の高速化</span>
+            <span class="pub-meta">第XX回○○学会, 2025年, 口頭発表</span>
+          </li>
+          <li>
+            <span class="pub-title">Webアクセシビリティ改善の事例研究</span>
+            <span class="pub-meta">YYYYシンポジウム, 2024年, ポスター</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h3 class="section-title">Contact</h3>
+      <div class="card contact-card">
+        <p>お仕事・コラボのご相談は下記からどうぞ。</p>
+        <ul class="contact-list">
+          <li>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .5l-8 4v9c0 5 3.5 9.5 8 10 4.5-.5 8-5 8-10v-9l-8-4zM7 10l5 3 5-3"/></svg>
+            <a href="mailto:you@example.com">you@example.com</a>
+          </li>
+          <li>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 19c-4 0-7-3-7-7S5 5 9 5c1.9 0 3.6.7 4.9 1.9l-2.1 2.1C11.1 8.4 10.1 8 9 8a4 4 0 000 8c2 0 3.7-1.5 4-3.4H9v-3.2h7.9c.1.5.1 1 .1 1.6 0 4-3 7-8 7z"/></svg>
+            <a href="https://github.com/yu-kukki" target="_blank" rel="noopener">github.com/yu-kukki</a>
+          </li>
+          <li>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/></svg>
+            <a href="#" aria-disabled="true">LinkedIn（追加予定）</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>© <span id="year">2025</span> yu-kukki</p>
+    </footer>
+  </main>
+</body>
+</html>
